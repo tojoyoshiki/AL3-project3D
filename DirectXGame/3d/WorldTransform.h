@@ -3,8 +3,6 @@
 #include "Matrix4x4.h"
 #include "Vector3.h"
 #include <d3d12.h>
-#include <type_traits>
-#include <wrl.h>
 
 // 定数バッファ用データ構造体
 struct ConstBufferDataWorldTransform {
